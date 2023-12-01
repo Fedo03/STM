@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+      <link rel="stylesheet"
+      href="./stm.css">
+    </head>
+    <body>
+
+      <div id="container">
+
+     <div id="members">
+            <h1>
+              members
+            </h1>
+            <ul id="list">
+              
+            </ul>
+          </div>
+
+          
+       <div id="chat">
+        
+        <h3>chats</h3>
+        
+            <div id="txtArea">
+
+            </div>
+        
+          <div id="inputs">
+      
+      <input type="text" id="text" placeholder="type...">
+      <div id="dis">
+      <input type="file" accept="video/*" id="vid">
+      <input type="file" accept="image/*" id="img">
+      </div>
+      <button  id="file">file</button>
+      <button id="sub">send</button>
+      </div>
+       </div>
+       </div>
+      
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="./chat.js" type="module"></script>
+      
+      
+
+    </body>
+</html>

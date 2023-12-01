@@ -1,0 +1,20 @@
+{
+  "name": "stm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stm_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon stm_server.js"
+  },
+  "keywords": [],
+  "author": "FEDO",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.7",
+    "socket.io": "^4.7.2"
+  }
+}

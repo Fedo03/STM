@@ -1,0 +1,50 @@
+#txtArea {
+    height: 75vh;
+    overflow-y: auto; 
+    
+    padding: 10px; 
+  }
+
+#members {
+    background-color: rgb(84, 84, 84);
+    margin-right: 10px;
+    width : 30vh;
+    padding-left: 0%;
+}
+body {
+    background-color: gray;
+    margin : 0px;
+}
+
+#head {
+    text-align: center;
+}
+
+#container {
+    display : flex;
+}
+
+
+
+#chat {
+    height : 100vh;
+    width : 50%;
+}
+
+#inputs {
+    position: absolute;
+  bottom: 10px;
+}
+
+#list {
+    list-style: none;
+    
+    padding-left: 5%;
+}
+
+#text {
+    height: 20px;
+    width : 60vh;
+}
+
+
