@@ -1,3 +1,7 @@
+#sub {
+	background-color : gray;
+}
+
 .top {
 				text-align : center;
 				background-color : gray ;
@@ -6,7 +10,7 @@
 				padding-top : 20px ;
 				padding-bottom :30px ;
 				border-bottom : 5px solid green ;
-		position :sticky ;
+		        position :sticky ;
 			
 				 
 }
@@ -46,12 +50,13 @@ h4 {
 				width:100%;
 				height :80% ;
 				transition : 0.3s;
-				background-color : rgb(51,51,51)
+				background-color : gray
 }
 .navc{
-				background-color : rgb(51,51,51) ;
-				height :80%;
+				background-color : gray ;
+				height :100%;
 				position :fixed ;
+				padding-top : 20px
 				
 }
 
@@ -92,3 +97,5 @@ span img{
 .me .nav {
 				transform : translatex(-400px);
 }
+
+
